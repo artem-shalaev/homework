@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	int k;
-	double Res, pow3;
+	double Res, umn3;
 	cout << "Enter k: ";
 	cin >> k;
 	double у[3];
