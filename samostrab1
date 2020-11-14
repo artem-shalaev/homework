@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  int a, b, c, d, i;
+  cin >> a >> b >> c >> d;
+  for(i = 10000; i <= 99999; i=i+1)
+  {
+    if(i % a == b and i % c == d)
+      cout << i << " ";
+  }
+}
