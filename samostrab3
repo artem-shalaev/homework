@@ -1,0 +1,24 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+  int sum = 0, c = 0;
+  int n, i;
+  cin >> n;
+  int mas[n];
+  for(i = 0; i < n; i=i+1)
+  {
+    cin >> mas[i];
+  }
+  for(i = 0; i < n; i=i+1)
+  {
+    if(mas[i] % 2 == 1)
+    {
+      c++;
+      sum = sum + mas[i];
+    }
+  }
+  double otv = (double) sum / c;
+  cout << setprecision(3) << otv;
+}
